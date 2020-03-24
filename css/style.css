@@ -1,0 +1,182 @@
+
+body{
+	font-family: "Segoe UI", sans-serif;
+	background: #1f211f;
+}
+header{
+	background: black;
+	position: relative;
+}
+main{
+	background: #1f211f;
+}
+footer{
+	background: #1f211f;
+}
+.wood_container{
+	width: 65%;
+	margin: 0 auto;
+}
+.header_title{
+	color: #0EE355;
+	font-size: 87px;
+	margin-left: 65%;
+	font-family: "BodoniW01-Poster", serif;
+
+
+}
+.main__title_index{
+	font-family: "BodoniW01-Poster", serif;
+	color: #099739;
+	font-size: 50px;
+	width: 50%;
+	margin-top: 20px;
+}
+.main__description_index{
+	font: 22px Jura, sans-serif;
+	color: #fff;
+	font-weight: bold;
+}
+.main__number_index{
+	font: 50px "BodoniW01-Poster", serif;
+	color: #099739;
+	margin-right: 20px;
+}
+.services_title{
+	font: 30px "BodoniW01-Poster", serif;
+	color: #00995B;
+	font-weight: bold;
+	text-align: center;
+}
+.services_title_circle{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 3px solid #00995B;
+}
+.services_name{
+	font-family: jura,sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+}
+.line_vertical{
+	position: absolute;
+	border-left: 6px solid rgba(14, 227, 85, 1);
+	height: 100%;
+	margin-left: 85%;
+	top: 0;
+}
+.line_gorizontal{
+	margin: 0 auto;
+	border-bottom: 6px solid rgba(14, 227, 85, 1);
+	width: 85%;
+
+}
+.nav__item{
+	color: #fff;
+	transition: color 0.4s ease 0s;
+	font-size: 47px;
+	border-right: 1px solid rgba(14, 227, 85, 1);
+	padding: 30px;
+}
+.nav__item:last-child{
+	border-right: none;
+}
+.nav__item:hover{
+	color: rgba(14, 227, 85, 1);
+	transition: color 0.4s ease 0s;
+	text-decoration: none;
+}
+.active-nav__item{
+ 	color: #223722;
+}
+.order__object{
+	padding: 25px;
+	border: 1px solid #F0FAFF;
+	border-radius: 8px;
+	background: #174C29;
+}
+.order__title{
+	text-align: center;
+	color: #F0FAFF;
+	font-size: 33px;
+	font-family: 'Jura', sans-serif;
+	font-weight: bold;
+}
+.order__text{
+	color: black;
+	font-size: 25px;
+	font-family: 'Jura', sans-serif;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+.color_green{
+	color: #0EE355;
+}
+.order__button{
+	margin: 0 auto;
+	font: normal normal normal 28px/1.4em jura,sans-serif;
+	color: #0EE355;
+	display: inline-block;
+	width: 230px;
+	position: relative;
+	white-space: nowrap;
+	padding: 5px 45px;
+	background-color: transparent;
+	transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	border: solid rgba(9, 151, 57, 0.71) 4px;
+	border-radius: 50px;
+}
+.order__button:hover{
+	text-decoration: none;
+	color: #ffffff;
+	background: #323232;
+}
+.contact_title{
+	text-align: center;
+	color: #0EE355;
+	font: 42px "BodoniW01-Poster", serif;
+	font-weight: bold;
+}
+
+.map_title{
+	color: #FFFFFF;
+	font-size: 27px;
+	font-family: 'Jura', sans-serif;
+	font-weight: bold;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+
+}
+
+.map__up{
+	color: #099739;
+	font-size: 27px;
+}
+.footer__contact{
+	width: 48%;
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: 'Jura', sans-serif;
+	color: white;
+}
+.footer__phone{
+	color: #099739;
+}
+.footer__number{
+	font-size: 20px;
+	color: #CADDE6;
+	padding-left: 5px;
+}
+.gallery__title{
+	text-align: center;
+	color: #fff;
+	font-size: 33px;
+}
+.botton__gallary a{
+	text-decoration: none;
+}
