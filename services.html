@@ -12,20 +12,28 @@
 		  type="text/css"/>
 	<link href="img/fontawesome/css/all.css" rel="stylesheet">
 	<script defer src="img/fontawesome/js/all.js"></script>
+
+	<link href="node_modules/lightgallery.js/dist/css/lightgallery.min.css" rel="stylesheet">
 </head>
 <body>
+
 <header>
 	<div class="header_title py-3">NOX</div>
 	<div class="line_vertical"></div>
 	<div class="line_gorizontal"></div>
 	<nav class="d-flex justify-content-center">
-		<a class="nav__item " href="index.html">Головна</a>
+		<a class="nav__item" href="index.html">Головна</a>
 		<a class="nav__item active-nav__item" href="services.html">Послуги</a>
-		<a class="nav__item" href="gallery.html">Галерея</a>
 		<a class="nav__item" href="contacts.html">Контакти</a>
+		<a class="nav__item" href="news.html">Новини</a>
 	</nav>
 </header>
 <main>
+	<script src="node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script>
+	<script src="node_modules/lg-thumbnail.js/dist/lg-thumbnail.min.js"></script>
+	<script src="node_modules/lg-zoom.js/dist/lg-zoom.min.js"></script>
+	<script src="node_modules/lg-fullscreen.js/dist/lg-fullscreen.min.js"></script>
+	<script src="node_modules/lg-share.js/dist/lg-share.min.js"></script>
 
 	<section class="d-flex justify-content-center py-5">
 		<div class="order__object">
@@ -38,16 +46,161 @@
 		</div>
 	</section>
 
-	<section class="wood_container">
+	<section class="wood_container my-5">
 		<div class="d-flex">
 			<div class=" mr-3">
 				<div class="services_title mb-3">Протиградові <br>комплекси</div>
-				<div class=" mx-auto services_title_circle">
+				<div class=" mx-auto ">
+					<div>
+						<div class="button__gallery d-flex justify-content-center " id="aniimated-thumbnials">
+							<a
+							   data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"
+							   href="img/Anti_urban_complexes/Anti_urban_complexes_2.jpeg">
+								<img class="services_title_circle"
+									 src="img/Anti_urban_complexes/Anti_urban_complexes_2.jpeg	">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_1.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_1.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_3.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_3.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_4.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_4.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_5.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_5.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_6.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_6.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_7.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_7.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_8.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_8.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_9.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_9.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_10.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_10.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_11.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_11.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_12.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_12.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_13.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_13.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_14.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_14.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_15.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_15.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_16.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_16.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_17.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_17.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_18.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_18.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_19.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_19.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_20.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_20.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_21.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_21.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_22.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_22.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_23.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_23.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_24.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_24.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_25.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_25.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_26.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_26.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_27.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_27.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_28.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_28.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_29.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_29.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_30.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_30.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_31.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_31.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_32.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_32.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_33.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_33.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_34.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_34.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_35.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_35.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_36.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_36.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_37.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_37.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_38.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_38.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_39.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_39.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_40.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_40.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_41.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_41.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_42.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_42.jpeg">
+							</a>
+							<a	 href="img/Anti_urban_complexes/Anti_urban_complexes_43.jpeg">
+								<img class="d-none" src="img/Anti_urban_complexes/Anti_urban_complexes_43.jpeg">
+							</a>
 
+						</div>
+						<script type="text/javascript">
+							lightGallery(document.getElementById('aniimated-thumbnials'), {
+								thumbnail: true,
+								fullScreen: true,
+								zoom: true,
+								share: true,
+								download: false
+							});
+						</script>
+					</div>
 				</div>
 			</div>
 			<div class="d-flex align-items-center services_name">
-				<ul>
+				<ul class="pt-5">
 					<li>Кілки</li>
 					<li>Сітки</li>
 					<li>Кріплення</li>
@@ -58,11 +211,112 @@
 		<div class="d-flex justify-content-end">
 			<div class=" mr-3">
 				<div class="services_title mb-3">Садові меблі</div>
-				<div class=" mx-auto services_title_circle">
+				<div class=" mx-auto ">
+					<div>
+						<div class="button__gallery d-flex justify-content-center " id="aniimated-thumbnials1">
+							<a
+									data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"
+									href="img/garden_furniture/garden_furniture_26.jpeg">
+								<img class="services_title_circle"
+									 src="img/garden_furniture/garden_furniture_26.jpeg	">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_1.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_1.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_2.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_2.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_3.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_3.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_4.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_4.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_5.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_5.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_6.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_6.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_7.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_7.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_8.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_8.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_9.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_9.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_10.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_10.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_11.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_11.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_12.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_12.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_13.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_13.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_14.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_14.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_15.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_15.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_16.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_16.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_17.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_17.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_18.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_18.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_19.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_19.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_20.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_20.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_21.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_21.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_22.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_22.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_23.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_23.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_24.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_24.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_25.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_25.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_27.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_27.jpeg">
+							</a>
+							<a	 href="img/garden_furniture/garden_furniture_28.jpeg">
+								<img class="d-none" src="img/garden_furniture/garden_furniture_28.jpeg">
+							</a>
+
+						</div>
+						<script type="text/javascript">
+							lightGallery(document.getElementById('aniimated-thumbnials1'), {
+								thumbnail: true,
+								fullScreen: true,
+								zoom: true,
+								share: true,
+								download: false
+							});
+						</script>
+					</div>
 				</div>
 			</div>
 			<div class="d-flex align-items-center services_name">
-				<ul>
+				<ul class="pt-5">
 					<li>Столи</li>
 					<li>Кашпо</li>
 					<li>Будки для тварин</li>
@@ -75,12 +329,51 @@
 		<div class="d-flex">
 			<div class=" mr-3">
 				<div class="services_title mb-3">Держаки для <br> інструментів</div>
-				<div class=" mx-auto services_title_circle">
+				<div class=" mx-auto ">
+					<div>
+						<div class="button__gallery d-flex justify-content-center " id="aniimated-thumbnials2">
+							<a
+									data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"
+									href="img/handles/handles_1.jpeg">
+								<img class="services_title_circle"
+									 src="img/handles/handles_1.jpeg	">
+							</a>
+							<a	 href="img/handles/handles_2.jpeg">
+								<img class="d-none" src="img/handles/handles_2.jpeg">
+							</a>
+							<a	 href="img/handles/handles_3.jpeg">
+								<img class="d-none" src="img/handles/handles_3.jpeg">
+							</a>
+							<a	 href="img/handles/handles_4.jpeg">
+								<img class="d-none" src="img/handles/handles_4.jpeg">
+							</a>
+							<a	 href="img/handles/handles_5.jpeg">
+								<img class="d-none" src="img/handles/handles_5.jpeg">
+							</a>
+							<a	 href="img/handles/handles_6.jpeg">
+								<img class="d-none" src="img/handles/handles_6.jpeg">
+							</a>
+							<a	 href="img/handles/handles_7.jpeg">
+								<img class="d-none" src="img/handles/handles_7.jpeg">
+							</a>
 
+
+
+						</div>
+						<script type="text/javascript">
+							lightGallery(document.getElementById('aniimated-thumbnials2'), {
+								thumbnail: true,
+								fullScreen: true,
+								zoom: true,
+								share: true,
+								download: false
+							});
+						</script>
+					</div>
 				</div>
 			</div>
 			<div class="d-flex align-items-center services_name">
-				<ul>
+				<ul class="pt-5">
 					<li>Лопати</li>
 					<li>Граблі</li>
 					<li>Мітли</li>
@@ -91,12 +384,41 @@
 		<div class="d-flex justify-content-end">
 			<div class=" mr-3">
 				<div class="services_title mb-3">Loft меблі</div>
-				<div class=" mx-auto services_title_circle">
+				<div class=" mx-auto ">
+					<div>
+						<div class="button__gallery d-flex justify-content-center " id="aniimated-thumbnials3">
+							<a
+									data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"
+									href="img/furniture_loft/furniture_loft_1.jpeg">
+								<img class="services_title_circle"
+									 src="img/furniture_loft/furniture_loft_1.jpeg	">
+							</a>
+							<a	 href="img/furniture_loft/furniture_loft_2.jpeg">
+								<img class="d-none" src="img/furniture_loft/furniture_loft_2.jpeg">
+							</a>
+							<a	 href="img/furniture_loft/furniture_loft_3.jpeg">
+								<img class="d-none" src="img/furniture_loft/furniture_loft_3.jpeg">
+							</a>
+							<a	 href="img/furniture_loft/furniture_loft_4.jpeg">
+								<img class="d-none" src="img/furniture_loft/furniture_loft_4.jpeg">
+							</a>
 
+
+						</div>
+						<script type="text/javascript">
+							lightGallery(document.getElementById('aniimated-thumbnials3'), {
+								thumbnail: true,
+								fullScreen: true,
+								zoom: true,
+								share: true,
+								download: false
+							});
+						</script>
+					</div>
 				</div>
 			</div>
 			<div class="d-flex align-items-center services_name">
-				<ul>
+				<ul class="pt-5">
 					<li>Дитячі ліжка</li>
 					<li>Вігвами</li>
 					<li>Шафи купе</li>
@@ -104,6 +426,12 @@
 			</div>
 
 		</div>
+	</section>
+
+	<section>
+
+
+
 	</section>
 
 </main>
@@ -129,10 +457,20 @@
 		</a>
 	</section>
 	<section class="footer__contact pb-4">
-		<div class="font-weight-bold mb-3">Адреса:​ (офіс)</div>
-		<div class="footer__phone font-weight-bold">Телефонуйте:<span class="footer__number">+7 495 000-00-00</span>
+		<div class="font-weight-bold mb-3">Адреса:​
+			<div class="footer__contact_text">Димер, Радомишль, Київська область, Україна</div>
+		</div>
+		<div class="d-flex">
+
+			<div class="footer__phone font-weight-bold pt-2">Телефонуйте:</div>
+			<div class="pl-4">
+				<div class="footer__number">+380 67 327 0102</div>
+				<div class="footer__number">+380 68 000 3637</div>
+			</div>
+
 		</div>
 	</section>
 </footer>
+
 </body>
 </html>

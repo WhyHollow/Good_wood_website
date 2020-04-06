@@ -17,30 +17,20 @@ footer{
 	width: 65%;
 	margin: 0 auto;
 }
+.wood_container_contact{
+	width: 80%;
+	margin: 0 auto;
+}
 .header_title{
 	color: #0EE355;
 	font-size: 87px;
 	margin-left: 65%;
 	font-family: "BodoniW01-Poster", serif;
-
-
 }
-.main__title_index{
-	font-family: "BodoniW01-Poster", serif;
-	color: #099739;
-	font-size: 50px;
-	width: 50%;
-	margin-top: 20px;
-}
-.main__description_index{
-	font: 22px Jura, sans-serif;
-	color: #fff;
-	font-weight: bold;
-}
-.main__number_index{
-	font: 50px "BodoniW01-Poster", serif;
-	color: #099739;
-	margin-right: 20px;
+.footer__contact_text{
+	color: #00995B;
+	font-size: 25px;
+	padding-left: 10px;
 }
 .services_title{
 	font: 30px "BodoniW01-Poster", serif;
@@ -144,15 +134,27 @@ footer{
 }
 
 .map_title{
-	color: #FFFFFF;
-	font-size: 27px;
-	font-family: 'Jura', sans-serif;
+	color: #099739;
+	font-size: 36px;
+	font-family: "BodoniW01-Poster", serif;
 	font-weight: bold;
 	line-height: 1.5em;
-	letter-spacing: 0.1em;
-
+	letter-spacing: 0.05em;
+	text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+	text-align: center;
 }
 
+.contact_title_text{
+	color: #F0FAFF;
+	font-weight: bold;
+	font-family: 'Jura' ,sans-serif;
+	font-size: 27px;
+}
+.contact_img{
+	background: url('../img/img_contact.jpg');
+	height: 160px;
+	background-size: cover;
+}
 .map__up{
 	color: #099739;
 	font-size: 27px;
@@ -168,15 +170,27 @@ footer{
 	color: #099739;
 }
 .footer__number{
-	font-size: 20px;
+	font-size: 25px;
 	color: #CADDE6;
 	padding-left: 5px;
 }
+
 .gallery__title{
 	text-align: center;
 	color: #fff;
 	font-size: 33px;
 }
-.botton__gallary a{
+
+.button__gallery a{
 	text-decoration: none;
 }
+.map__cont{
+	font-family: 'Jura',sans-serif;
+	font-size: 22px;
+	color: #099739;
+}
+.map_img{
+	border: 3px solid #099739;
+	padding: 6px ;
+}
+
